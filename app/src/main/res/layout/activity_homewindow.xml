@@ -106,7 +106,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/appam"/>
 
                                     <ImageView
                                         android:id="@+id/food1"
@@ -155,7 +155,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/dosa"/>
 
                                     <ImageView
                                         android:id="@+id/food2"
@@ -204,7 +204,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/puttu"/>
 
                                     <ImageView
                                         android:id="@+id/food3"
@@ -254,7 +254,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/chapathi"/>
 
                                     <ImageView
                                         android:id="@+id/food4"
@@ -342,7 +342,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/biriyani"/>
 
                                     <ImageView
                                         android:id="@+id/food5"
@@ -391,7 +391,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/ilasadya"/>
 
                                     <ImageView
                                         android:id="@+id/food6"
@@ -440,7 +440,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/mandi"/>
 
                                     <ImageView
                                         android:id="@+id/food7"
@@ -489,7 +489,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/noodle"/>
 
                                     <ImageView
                                         android:id="@+id/food8"
@@ -577,7 +577,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/icecream"/>
 
                                     <ImageView
                                         android:id="@+id/food9"
@@ -626,7 +626,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/shake"/>
 
                                     <ImageView
                                         android:id="@+id/food10"
@@ -675,7 +675,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/fruit"/>
 
                                     <ImageView
                                         android:id="@+id/food11"
@@ -725,7 +725,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/mixed"/>
 
                                     <ImageView
                                         android:id="@+id/food12"
@@ -813,7 +813,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/drinks"/>
 
                                     <ImageView
                                         android:id="@+id/food13"
@@ -862,7 +862,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/fresh"/>
 
                                     <ImageView
                                         android:id="@+id/food14"
@@ -911,7 +911,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/cold"/>
 
                                     <ImageView
                                         android:id="@+id/food15"
@@ -961,7 +961,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_centerHorizontal="true"
-                                        android:src="@drawable/food1"/>
+                                        android:src="@drawable/boost"/>
 
                                     <ImageView
                                         android:id="@+id/food16"
