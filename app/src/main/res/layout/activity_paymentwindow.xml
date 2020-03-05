@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paymentwindow">
+
+    <RelativeLayout
+        android:id="@+id/paymentwindowhead"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/gradientbackground">
+
+        <TextView
+            android:id="@+id/paymentwindowhead1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAUCEJA"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/paymentwindowbody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/paymentbackground"
+        android:layout_below="@id/paymentwindowhead"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="80dp">
+
+        <RelativeLayout
+            android:id="@+id/paymentwindowcard"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/cardgradientback">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/visa1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4048  XXXX    XXXX   XXXX"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Holder Name"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valid Upto :"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/paymentwindowcardnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/paymentwindowcard"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="Card Number"
+            android:textColor="#0D7AD5"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/paymentwindowcardnumber1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/paymentwindowcardnumber"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/inputbackground"
+            android:hint="Card Number"
+            android:inputType="number"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/paymentwindowcarddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/paymentwindowcardnumber1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="Expiry Date"
+            android:textColor="#0D7AD5"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/paymentwindowcarddate1"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@drawable/inputbackground"
+            android:layout_below="@id/paymentwindowcarddate"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="MM/YY"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/paymentwindowcardcvv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/paymentwindowcardnumber1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="CVV"
+            android:textColor="#0D7AD5"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/paymentwindowcardcvv1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/paymentwindowcardcvv"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/inputbackground"
+            android:hint="CVV"
+            android:maxLength="3"
+            android:inputType="number|numberPassword"
+            android:padding="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/paymentwindowcardname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/paymentwindowcarddate1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:text="Name on Card"
+            android:textColor="#0D7AD5"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/paymentwindowcardname1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/inputbackground"
+            android:layout_below="@id/paymentwindowcardname"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Name on Card"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/paymentwindowbutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_above="@id/paymentwindownull"
+        android:layout_marginBottom="20dp"
+        android:text="Proceed"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonbackground"/>
+
+    <RelativeLayout
+        android:id="@+id/paymentwindownull"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/gradientbackground"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
